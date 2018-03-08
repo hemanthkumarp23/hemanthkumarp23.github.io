@@ -1,0 +1,88 @@
+body {
+	background: url("background8.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	height: 688px;
+	/*margin-top: 0px;*/
+	z-index: -1;
+	color: white;
+	position:relative;
+	background-position: bottom center;
+}
+
+.home-title {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 200px;
+	font-family: 'Montaga', serif;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.profile_info{
+	text-align: center;
+}
+
+.names_branch{
+	padding: 50px;
+	text-align: left;
+}
+
+table, th, td {
+    border: 1px double black;
+}
+
+.pictureContainer h2:hover{
+    position: relative;
+    transform: translate3d(0px, -100px, 0px);
+    transition: transform 1s ease-in-out;
+}
+
+li{
+	text-align: center;
+}
+
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: grey;
+}
+
+/* Create an active/current "tab button" class */
+.tab button:active {
+    background-color: red;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding-left: 5%;
+    border: 1px solid white;
+    width: 90%;
+    border-left: none;
+    height: 300px;
+}
