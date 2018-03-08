@@ -74,7 +74,7 @@ li{
 
 /* Create an active/current "tab button" class */
 .tab button:active {
-    background-color: red;
+    background-color: white;
 }
 
 /* Style the tab content */
